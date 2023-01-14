@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_header {
+    height: 1200px;
+    width: 100%;
+    background: center center;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    height: 950px;
+    width: 80%;
+    border: 2px solid #ddd;
+    margin-left: 10%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: inset 1px 1px 8px 0px #ddd;
+}
+
+.accordion {
+    width: 91%;
+    height: 840px;
+    box-sizing: border-box;
+    border: 1px solid rgba(61, 36, 200, 0.888);
+    margin-top: 45px;
+    margin-left: 5%;
+    border-radius: 5px;
+    display: block;
+    background: center center;
+}
+
+button.itembtnOne {
+    padding: 30px 655px 30px 25px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 18px;
+    position: relative;
+    background: rgb(206, 55, 225);
+    color: #fff;
+}
+
+.arrow {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.up-arrow {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 46px;
+    color: #fff;
+}
+
+.accordion_ItemOne_down p {
+    margin-top: 10px;
+}
+
+.accordion_ItemOne_down {
+    width: 88%;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
+}
+
+.accordion_ItemOne_down span {
+    color: rgb(192, 48, 108);
+    font-size: 18px;
+}
+
+button.itembtnTwo {
+    padding: 30px 655px 30px 25px;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    position: relative;
+    background: rgb(28, 166, 157);
+    color: #fff;
+}
+
+.accordion_ItemTwo_down p {
+    margin-top: 10px;
+}
+
+.accordion_ItemTwo_down {
+    width: 87%;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
+}
+
+.accordion_ItemTwo_down span {
+    color: rgb(192, 48, 108);
+    font-size: 18px;
+}
+
+button.itembtnTre {
+    padding: 30px 655px 30px 25px;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    max-block-size: 500px;
+    background: rgb(222, 39, 161);
+    color: #fff;
+}
+
+.accordion_ItemTre_down p {
+    margin-top: 10px;
+}
+
+.accordion_ItemTre_down {
+    width: 87%;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
+}
+
+.accordion_ItemTre_down span {
+    color: rgb(192, 48, 108);
+    font-size: 18px;
+}
