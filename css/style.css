@@ -8,7 +8,7 @@
     width: 100%;
     background: center center;
     background-size: cover;
-    background-color: #fff;
+    background-color: rgb(131, 22, 137);
 }
 
 .container {
@@ -18,19 +18,19 @@
 }
 
 .header {
-    height: 950px;
+    height: 850px;
     width: 80%;
     border: 2px solid #ddd;
     margin-left: 10%;
     box-sizing: border-box;
     border-radius: 4px;
     background: #fff;
-    box-shadow: inset 1px 1px 8px 0px #ddd;
+    box-shadow: inset 1px 1px 8px 0px #ddd, 0px 2px 19px 5px #360465;
 }
 
 .accordion {
     width: 91%;
-    height: 840px;
+    height: 750px;
     box-sizing: border-box;
     border: 1px solid rgba(61, 36, 200, 0.888);
     margin-top: 45px;
@@ -51,17 +51,24 @@ button.itembtnOne {
     color: #fff;
 }
 
-.arrow {
+.arrowIconOne {
     position: absolute;
-    margin-left: -50px;
-    margin-top: 30px;
+    margin-left: 775px;
+    margin-top: -50px;
     color: #fff;
 }
 
-.up-arrow {
+.arrowIconTwo {
     position: absolute;
-    margin-left: -50px;
-    margin-top: 46px;
+    margin-left: 775px;
+    margin-top: -50px;
+    color: #fff;
+}
+
+.arrowIconTre {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: -50px;
     color: #fff;
 }
 
@@ -84,7 +91,6 @@ button.itembtnOne {
 button.itembtnTwo {
     padding: 30px 655px 30px 25px;
     border: none;
-    margin-top: 15px;
     font-size: 18px;
     position: relative;
     background: rgb(28, 166, 157);
@@ -110,7 +116,6 @@ button.itembtnTwo {
 button.itembtnTre {
     padding: 30px 655px 30px 25px;
     border: none;
-    margin-top: 15px;
     font-size: 18px;
     max-block-size: 500px;
     background: rgb(222, 39, 161);
@@ -132,3 +137,77 @@ button.itembtnTre {
     color: rgb(192, 48, 108);
     font-size: 18px;
 }
+
+.downArrow {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: -50px;
+    color: #fff;
+}
+
+/* ------step-1------ */
+.accordion_ItemOne_down {
+    display: none;
+}
+
+.showTextOne {
+    display: block;
+}
+
+.showBtn_Add {
+    display: none;
+}
+
+.down_Arr {
+    display: none;
+}
+
+.removeBtn_show {
+    display: block;
+}
+
+/* ----------step-2---- */
+.accordion_ItemTwo_down {
+    display: none;
+}
+
+.showTextTwo {
+    display: block;
+}
+
+.showBtn_AddTwo {
+    display: none;
+}
+
+.down_ArrTwo {
+    display: none;
+}
+
+.removeBtn_showTwo {
+    display: block;
+}
+
+/* -------------step-3-------- */
+.accordion_ItemTre_down {
+    display: none;
+}
+
+.showTextTre {
+    display: block;
+}
+
+.showBtn_AddTre {
+    display: none;
+}
+
+.down_ArrTre {
+    display: none;
+}
+
+.removeBtn_showTre {
+    display: block;
+}
+
+/* .itemBtn_ShowText{
+    display: block;
+} */
