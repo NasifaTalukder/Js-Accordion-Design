@@ -207,7 +207,27 @@ button.itembtnTre {
 .removeBtn_showTre {
     display: block;
 }
-
-/* .itemBtn_ShowText{
-    display: block;
-} */
+/* -----toggleIcon add step 1------- */
+.arrowIconOne i{
+    font-size: 25px;
+    transition: 0.4s;
+}
+.rotateIcon{
+    transform: rotate(180deg);
+}
+/* -----toggleIcon add step 2------- */
+.arrowIconTwo i{
+    font-size: 25px;
+    transition: 0.4s;
+}
+.rotateIconTwo{
+    transform: rotate(180deg);
+}
+/* -----toggleIcon add step 3------- */
+.arrowIconTre i{
+    font-size: 25px;
+    transition: 0.4s;
+}
+.rotateIconTre{
+    transform: rotate(180deg);
+}
