@@ -1,31 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 .main_header {
-    height: 1200px;
-    width: 100%;
-    background: center center;
+    height: 950px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(131, 22, 137);
+    /* background-color: rgb(131, 22, 137); */
 }
 
 .container {
-    width: 1140px;
+    width: 1200px;
     margin: auto;
-    overflow: hidden;
 }
 
 .header {
     height: 850px;
-    width: 80%;
+    width: 912px;
     border: 2px solid #ddd;
-    margin-left: 10%;
+    margin-left: 150px;
     box-sizing: border-box;
     border-radius: 4px;
     background: #fff;
-    box-shadow: inset 1px 1px 8px 0px #ddd, 0px 2px 19px 5px #360465;
+    box-shadow: inset 1px 1px 8px 0px #ddd, 0px 6px 25px 8px #360465;
 }
 
 .accordion {
